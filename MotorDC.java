@@ -3,9 +3,9 @@ public class MotorDC extends Motor {
 
     private boolean tieneEscobillas;
 
-    public MotorDC(String codigo, String tipoMotor, double potenciaNominal, double corrienteNominal,
+    public MotorDC(String codigo, String tipoMotor, double potenciaNominal, double corrienteNominal,double voltajeNominal,
                    String ubicacion, boolean tieneEscobillas) {
-        super(codigo, tipoMotor, potenciaNominal, corrienteNominal, ubicacion);
+        super(codigo, tipoMotor, potenciaNominal, corrienteNominal,voltajeNominal, ubicacion);
         this.tieneEscobillas = tieneEscobillas;
     }
 
