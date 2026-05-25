@@ -5,9 +5,9 @@ public class MotorAC110V extends Motor {
     private double frecuencia;
     private double factorPotencia;
 
-    public MotorAC110V(String codigo, String tipoMotor, double potenciaNominal, double corrienteNominal,
+    public MotorAC110V(String codigo, String tipoMotor, double potenciaNominal, double corrienteNominal,double voltajeNominal,
                        String ubicacion, double frecuencia, double factorPotencia) {
-        super(codigo, tipoMotor, potenciaNominal, corrienteNominal, ubicacion);
+        super(codigo, tipoMotor, potenciaNominal, corrienteNominal, voltajeNominal, ubicacion);
         this.frecuencia = frecuencia;
         this.factorPotencia = factorPotencia;
     }
@@ -36,4 +36,3 @@ public class MotorAC110V extends Motor {
                 ", FactorPotencia: " + factorPotencia;
     }
 }
-
