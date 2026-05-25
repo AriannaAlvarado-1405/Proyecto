@@ -5,9 +5,9 @@ public class MotorTrifasico extends Motor {
     private String tipoConexion;
 
 
-    public MotorTrifasico(String codigo, String tipoMotor, double potenciaNominal, double corrienteNominal,
+    public MotorTrifasico(String codigo, String tipoMotor, double potenciaNominal, double corrienteNominal,double voltajeNominal,
                           String ubicacion, String tipoConexion) {
-        super(codigo, tipoMotor, potenciaNominal, corrienteNominal, ubicacion);
+        super(codigo, tipoMotor, potenciaNominal, corrienteNominal, voltajeNominal, ubicacion);
         this.tipoConexion = tipoConexion;
     }
 
